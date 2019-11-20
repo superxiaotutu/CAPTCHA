@@ -16,6 +16,7 @@ class CAPTCHA_creater:
         pass
 
     def load_batch(self, path):
+        # return imgs, labels
         pass
 
     # 这俩存图片就行
@@ -23,4 +24,5 @@ class CAPTCHA_creater:
         pass
 
     def load_img(self, path):
+        # return imgs, labels
         pass
