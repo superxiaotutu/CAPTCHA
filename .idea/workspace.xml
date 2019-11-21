@@ -2,6 +2,316 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe0bddf-c19f-4ad2-9742-94c1d9bb464b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness0/hardness0_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness1/hardness1_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/train/hardness2/hardness2_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness0/hardness0_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness1/hardness1_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/imgs/val/hardness2/hardness2_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CAPTCHA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CAPTCHA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/data_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_stream.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,13 +320,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CAPTCHA$data_stream.coverage" NAME="data_stream Coverage Results" MODIFIED="1574317260554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/data_stream.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="396">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,11 +372,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="117" />
-    <option name="width" value="1890" />
-    <option name="height" value="845" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -92,7 +406,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ewriopvkj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,6 +420,30 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="data_stream" type="PythonConfigurationType" factoryName="Python">
+      <module name="CAPTCHA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/tensorflow/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -117,52 +455,67 @@
       <option name="presentableId" value="Default" />
       <updated>1574230863785</updated>
       <workItem from="1574230865175" duration="1823000" />
+      <workItem from="1574243864310" duration="1009000" />
+      <workItem from="1574313491531" duration="2526000" />
+      <workItem from="1574318253183" duration="8978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1823000" />
+    <option name="totallyTimeSpent" value="14336000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2470651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969433" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31084338" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/process.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/data_stream.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="396">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/process.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
