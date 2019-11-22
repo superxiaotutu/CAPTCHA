@@ -10,7 +10,7 @@ import numpy as np
 
 class CAPTCHA_creater:
     def __init__(self):
-        self.font_path = 'Arial.ttf'
+        self.font_path = 'utils/Arial.ttf'
         # 生成几位数的验证码
         self.number = NumCAPTCHA
         # 生成验证码图片的高度和宽度
@@ -48,12 +48,13 @@ class CAPTCHA_creater:
         label_lst = []
         for i in range(batch_size):
             tmp_img, tmp_lable = self.get_one()
-            img_lst.append(tmp_img)
+            tmp_lable = self.text2onehot(tmp_lable)
+            img_lst.append(np.asarray(tmp_img))
             label_lst.append(tmp_lable)
-        return [np.asarray(img_lst), np.asarray(label_lst)]
+        return [img_lst, np.asarray(label_lst)]
 
     def get_one(self):
-        image = Image.new('RGBA', (self.height, self.width), self.bgcolor)  # 创建图片
+        image = Image.new('RGB', (self.height, self.width), self.bgcolor)  # 创建图片
         font = ImageFont.truetype(self.font_path, 25)  # 验证码的字体
         draw = ImageDraw.Draw(image)  # 创建画笔
         text = self.gene_text()  # 生成字符串

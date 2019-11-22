@@ -4,6 +4,7 @@ import tensorflow as tf
 slim = tf.contrib.slim
 def CNN_model(img_ph, la_ph, dropout_keep_prob):
     end_points = {}
+    img_ph = img_ph/255
     with tf.variable_scope('CifarNet'):
         net = slim.conv2d(img_ph, 64, [5, 5], scope='conv1')
         end_points['conv1'] = net
@@ -23,7 +24,7 @@ def CNN_model(img_ph, la_ph, dropout_keep_prob):
         net = slim.fully_connected(net, 192, scope='fc4')
         end_points['fc4'] = net
 
-        logits = [slim.fully_connected(net, NumAlb, activation_fn=None, scope='logits') for i in range(NumCAPTCHA)]
+        logits = [slim.fully_connected(net, NumAlb, activation_fn=None, scope='logits_'+str(i)) for i in range(NumCAPTCHA)]
 
         end_points['Logits'] = logits
         end_points['Predictions'] = [tf.nn.softmax(i) for i in logits]
