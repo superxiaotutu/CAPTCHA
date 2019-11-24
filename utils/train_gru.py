@@ -49,7 +49,7 @@ class Training_Predict:
     def predict(self):
         file_list = []
         captcha = CAPTCHA_creater()
-        X, Y = captcha.get_batch(6000)
+        X, Y = captcha.get_batch(600)
         X = np.array(X)
         X = np.transpose(X, [0, 2, 1, 3])
         X = self.normalization(X)
@@ -59,8 +59,10 @@ class Training_Predict:
         out = K.get_value(K.ctc_decode(y_pred[:, :, :], input_length=np.ones(shape[0]) * shape[1])[0][0])[:,
               :seq_len]  # 2:
         print()
-        out = out + np.ones(out.shape())
 
+        result_bool = np.equal(Y, out)
+        true_num = np.sum(result_bool)  # 正确结果的数量
+        print("The accuracy of the model is %f" % ((true_num/4) / len(result_bool)))  # 验证结果的准确率
 
         # error_count = 0
         # for i in range(len(X)):
@@ -112,7 +114,7 @@ class Training_Predict:
         # Y_val = np.load('imgs/val/hardness0/labels.npy')
         # Y_val = np.argmax(Y_val, 2)
         captcha = CAPTCHA_creater()
-        X, Y = captcha.get_batch(60000)
+        X, Y = captcha.get_batch(6000)
         X = np.array(X)
         X = np.transpose(X, [0, 2, 1, 3])
         X = self.normalization(X)
@@ -121,16 +123,16 @@ class Training_Predict:
         print('train----------', X.shape, Y.shape)
         conv_shape = self.conv_shape
 
-        maxin = 60000
+        maxin = 6000
         result = self.ctc_model.fit([X[:maxin], Y[:maxin], np.array(np.ones(len(X)) * int(conv_shape[1]))[:maxin],
                                      np.array(np.ones(len(X)) * seq_len)[:maxin]], Y[:maxin],
                                     batch_size=128,
-                                    epochs=5,
-                                    validation_split=0.2,
+                                    epochs=200,
+                                    validation_split=0.1,
                                     callbacks=[EarlyStopping(patience=10)],  # checkpointer, history,history, plotter,
                                     # validation_data=([X[maxin:], Y[maxin:], np.array(np.ones(len(X))*int(conv_shape[1]))[maxin:], np.array(np.ones(len(X))*seq_len)[maxin:]], Y[maxin:]),
                                     )
-        self.predict()
+
 
     MODEL_PATH = './model/gru.model.h5'
 
@@ -147,19 +149,18 @@ class Training_Predict:
 
 
 if __name__ == '__main__':
-    # 训练模型，这段代码不用，注释    
     model = Training_Predict()
 
-    model.build_model()
-    model.train()
+    # model.build_model()
+    # model.train()
     #
-    # model.save_model(file_path = './model/gur_ctc_model.h5')
+    # model.save_model(file_path='./model/gur_ctc_model1.h5')
 
-    # model.load_model(file_path='./model/gur_ctc_model.h5base')
-    # model.predict()
-    #
-    # #评估模型
-    # model = Model()
-    # model.load_model(file_path = './model/gur_ctc_model.h5')
-    # model.evaluate(dataset)
-
+    model.load_model(file_path = './model/gur_ctc_model.h5base')
+    model.predict()
+    '''
+    #评估模型
+    model = Model()
+    model.load_model(file_path = './model/gur_ctc_model.h5')
+    model.evaluate(dataset)
+    '''
