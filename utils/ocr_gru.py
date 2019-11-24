@@ -18,7 +18,7 @@ IMAGE_WIDTH = image_size[0]
 
 
 def get_gru_ctc_model(image_size=image_size,
-                      seq_len=8,  # 字符最大长
+                      seq_len=4,  # 字符最大长
                       label_count=37):  # 标签数量
     img_height, img_width = image_size[0], image_size[1]
 
