@@ -22,13 +22,10 @@ def get_gru_ctc_model(image_size=image_size,
                       label_count=37):  # 标签数量
     img_height, img_width = image_size[0], image_size[1]
 
-    input_tensor = Input((img_height, img_width, 3))
+    input_tensor = Input((img_height, img_width, 3),name='input')
     x = input_tensor
-    for i in range(3):
-        x = Conv2D(32 * 2 ** i, (3, 3), activation='relu', strides=(2,2),padding='same')(x)
-        # x = Convolution2D(32*2**i, (3, 3), activation='relu')(x)
-        # x = MaxPooling2D(pool_size=(2, 2))(x)
-
+    x = preprocess(x)
+    x = cnn_part(x)
     conv_shape = x.get_shape()
     # print(conv_shape)
     x = Reshape(target_shape=(int(conv_shape[1]), int(conv_shape[2] * conv_shape[3])))(x)
@@ -45,7 +42,7 @@ def get_gru_ctc_model(image_size=image_size,
 
     x = Concatenate()([gru_2, gru_2b])
     x = Dropout(0.25)(x)
-    x = Dense(label_count, kernel_initializer='he_normal', activation='softmax')(x)
+    x = Dense(label_count, kernel_initializer='he_normal', activation='softmax',name='output')(x)
     base_model = Model(inputs=input_tensor, outputs=x)
 
     labels = Input(name='the_labels', shape=[seq_len], dtype='float32')
@@ -70,3 +67,10 @@ def preprocess(input):
 
     output = input
     return output
+
+def cnn_part(x):
+    for i in range(3):
+        x = Conv2D(32 * 2 ** i, (3, 3), activation='relu', strides=(2,2),padding='same')(x)
+        # x = Convolution2D(32*2**i, (3, 3), activation='relu')(x)
+        # x = MaxPooling2D(pool_size=(2, 2))(x)
+        return x
