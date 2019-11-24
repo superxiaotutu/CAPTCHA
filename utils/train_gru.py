@@ -49,7 +49,7 @@ class Training_Predict:
     def predict(self):
         file_list = []
         captcha = CAPTCHA_creater()
-        X, Y = captcha.get_batch(600)
+        X, Y = captcha.get_batch(6000)
         X = np.array(X)
         X = np.transpose(X, [0, 2, 1, 3])
         X = self.normalization(X)
@@ -114,7 +114,7 @@ class Training_Predict:
         # Y_val = np.load('imgs/val/hardness0/labels.npy')
         # Y_val = np.argmax(Y_val, 2)
         captcha = CAPTCHA_creater()
-        X, Y = captcha.get_batch(6000)
+        X, Y = captcha.get_batch(60000)
         X = np.array(X)
         X = np.transpose(X, [0, 2, 1, 3])
         X = self.normalization(X)
@@ -123,12 +123,12 @@ class Training_Predict:
         print('train----------', X.shape, Y.shape)
         conv_shape = self.conv_shape
 
-        maxin = 6000
+        maxin = 60000
         result = self.ctc_model.fit([X[:maxin], Y[:maxin], np.array(np.ones(len(X)) * int(conv_shape[1]))[:maxin],
                                      np.array(np.ones(len(X)) * seq_len)[:maxin]], Y[:maxin],
                                     batch_size=128,
                                     epochs=200,
-                                    validation_split=0.1,
+                                    validation_split=0.01,
                                     callbacks=[EarlyStopping(patience=10)],  # checkpointer, history,history, plotter,
                                     # validation_data=([X[maxin:], Y[maxin:], np.array(np.ones(len(X))*int(conv_shape[1]))[maxin:], np.array(np.ones(len(X))*seq_len)[maxin:]], Y[maxin:]),
                                     )
