@@ -97,6 +97,7 @@ with tf.Session() as sess:
                                  feed_dict={img_place: X,  input: X_adv, tar_label_place: tar_label})
     adv_label = sess.run(output, feed_dict={input:X_adv})
     adv_label = np.argmax(adv_label[0],1)
+    print('L2-norm metric is')
     print(np.linalg.norm(X_adv[0]-X))
 
     im_adv = Image.fromarray((X_adv[0]*255.).astype(np.uint8))
