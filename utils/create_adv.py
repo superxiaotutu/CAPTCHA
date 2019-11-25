@@ -85,14 +85,14 @@ with tf.Session() as sess:
     # img_adv_place = tf.placeholder(tf.float32, shape=(100, 70, 3))
     tar_label_place = tf.placeholder(tf.int32,shape=(output.shape[1].value,))
 
-    adversarial = Adversarial_captcha(input, output, 3, 1, tar_label_place)
+    adversarial = Adversarial_captcha(input, output, 1, 0.01, tar_label_place)
 
     ori_label = sess.run(output, feed_dict={input:[X]})
     tar_label = get_target_laebl(ori_label)
     adv = adversarial.attack(img_place)
 
     X_adv, _= sess.run(adv,feed_dict={img_place:X,  input:[X], tar_label_place:tar_label})
-    for i in range(100):
+    for i in range(1):
         X_adv, _ = sess.run(adv,
                                  feed_dict={img_place: X,  input: X_adv, tar_label_place: tar_label})
     adv_label = sess.run(output, feed_dict={input:X_adv})
@@ -102,8 +102,7 @@ with tf.Session() as sess:
 
     im_adv = Image.fromarray((X_adv[0]*255.).astype(np.uint8))
     im = Image.fromarray((X*255).astype(np.uint8))
-    im.show()
+    # im.show()
     im_adv.show()
-    print(1)
     # writer = tf.summary.FileWriter("./log", sess.graph)
 # writer.close()
