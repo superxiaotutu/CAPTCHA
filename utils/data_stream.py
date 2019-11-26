@@ -14,7 +14,7 @@ class CAPTCHA_creater:
         # 生成几位数的验证码
         self.number = NumCAPTCHA
         # 生成验证码图片的高度和宽度
-        self.height, self.width = image_height, image_width
+        self.width, self.height = image_width, image_height
         self.difficult = diff
         self.source = list(string.ascii_uppercase)
         for index in range(0, 10):
@@ -54,7 +54,7 @@ class CAPTCHA_creater:
         return [img_lst, np.asarray(label_lst)]
 
     def get_one(self):
-        image = Image.new('RGB', (self.height, self.width), self.bgcolor)  # 创建图片
+        image = Image.new('RGB', (self.width, self.height), self.bgcolor)  # 创建图片
         font = ImageFont.truetype(self.font_path, 25)  # 验证码的字体
         draw = ImageDraw.Draw(image)  # 创建画笔
         text = self.gene_text()  # 生成字符串
