@@ -55,7 +55,7 @@ class CAPTCHA_creater:
 
     def get_one(self):
         image = Image.new('RGB', (self.width, self.height), self.bgcolor)  # 创建图片
-        font = ImageFont.truetype(self.font_path, 25)  # 验证码的字体
+        font = ImageFont.truetype(self.font_path, 30)  # 验证码的字体
         draw = ImageDraw.Draw(image)  # 创建画笔
         text = self.gene_text()  # 生成字符串
         font_width, font_height = font.getsize(text)
