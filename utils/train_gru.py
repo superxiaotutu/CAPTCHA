@@ -29,7 +29,7 @@ char_set = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 seq_len = 4
 
 label_count = len(char_set) + 1
-image_size = (100, 70)
+image_size = (192, 64)
 
 IMAGE_HEIGHT = image_size[1]
 IMAGE_WIDTH = image_size[0]
@@ -151,12 +151,12 @@ class Training_Predict:
 if __name__ == '__main__':
     model = Training_Predict()
 
-    # model.build_model()
-    # model.train()
-    #
+    model.build_model()
+    model.train()
+
     # model.save_model(file_path='./model/gur_ctc_model1.h5')
 
-    model.load_model(file_path = './model/gur_ctc_model.h5base')
+    # model.load_model(file_path='./model/gur_ctc_model.h5base')
     model.predict()
     '''
     #评估模型

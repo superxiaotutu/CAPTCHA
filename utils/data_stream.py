@@ -10,7 +10,7 @@ import numpy as np
 
 class CAPTCHA_creater:
     def __init__(self):
-        self.font_path = 'utils/Arial.ttf'
+        self.font_path = 'Arial.ttf'
         # 生成几位数的验证码
         self.number = NumCAPTCHA
         # 生成验证码图片的高度和宽度
@@ -82,13 +82,11 @@ class CAPTCHA_creater:
             text += self.source[i]
         return text
 
-
     def text2onehot(self, text):
         oh = np.zeros([NumCAPTCHA, NumAlb])
         for i in range(NumCAPTCHA):
             oh[i][self.source.index(text[i])] = 1
         return oh
-
 
     def save_batch(self, path, batch=None, batchsize=50):
         if not batch:
