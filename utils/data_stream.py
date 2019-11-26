@@ -54,12 +54,12 @@ class CAPTCHA_creater:
         return [img_lst, np.asarray(label_lst)]
 
     def get_one(self):
-        image = Image.new('RGB', (self.width, self.height), self.bgcolor)  # 创建图片
+        image = Image.new('RGB', (self.height, self.width), self.bgcolor)  # 创建图片
         font = ImageFont.truetype(self.font_path, 30)  # 验证码的字体
         draw = ImageDraw.Draw(image)  # 创建画笔
         text = self.gene_text()  # 生成字符串
         font_width, font_height = font.getsize(text)
-        draw.text(((self.width - font_width) / self.number, (self.height - font_height) / self.number), text,
+        draw.text(((self.height - font_width) / self.number, (self.width - font_height) / self.number), text,
                   font=font, fill=self.getRandomColor1())  # 填充字符串
         if self.draw_line:
             self.gene_line(draw, self.width, self.height, self.line_number)
