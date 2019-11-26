@@ -1,7 +1,7 @@
 import numpy as np
 
 # config
-diff = 0
+diff = 1
 image_height, image_width, image_channel = 192, 64, 3
 NumCAPTCHA, NumAlb = 4, 36
 batchsize = 50

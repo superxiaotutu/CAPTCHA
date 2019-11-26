@@ -71,9 +71,12 @@ class CAPTCHA_creater:
             draw = ImageDraw.Draw(image)  # 创建画笔
             for x in range(self.width):
                 for y in range(self.height):
-                    c = image.getpixel((x, y))
-                    if c == (0, 0, 0, 0):
-                        draw.point([x, y], fill=self.bgcolor)
+                    try:
+                        c = image.getpixel((x, y))
+                        if c == (0, 0, 0, 0):
+                            draw.point([x, y], fill=self.bgcolor)
+                    except:
+                        pass
         return image, text
 
     def onehot2text(self, oh):

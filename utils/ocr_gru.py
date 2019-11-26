@@ -11,7 +11,7 @@ from keras.regularizers import l2
 import keras.backend as K
 
 char_set = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-image_size = (100, 70)
+image_size = (192, 64)
 
 IMAGE_HEIGHT = image_size[1]
 IMAGE_WIDTH = image_size[0]
