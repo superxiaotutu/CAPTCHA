@@ -77,7 +77,7 @@ def cnn_3layer(x):
         x = Conv2D(32 * 2 ** i, (3, 3), activation='relu', strides=(2, 2), padding='same')(x)
         # x = Convolution2D(32*2**i, (3, 3), activation='relu')(x)
         # x = MaxPooling2D(pool_size=(2, 2))(x)
-        return x
+    return x
 
 def cnn_resnet(x):
     # CNN part resnet
