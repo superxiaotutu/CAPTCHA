@@ -113,6 +113,30 @@ def cnn_part(x):
         x = _leaky_relu(x, 0.01)
     return x
 
+def cnn_densenet(x):
+    # CNN part densenet
+    with tf.variable_scope('mini-densenet'):
+        conv1 = _dense_block(x, 4, 'block1')
+        conv1_cnn = _conv2d(conv1, 'after_block1', 3, 19, 16, 1)
+        pool1 = _max_pool(conv1_cnn, 2, 2)
+        x = pool1
+
+        conv2 = _dense_block(x, 16, 'block2')
+        conv2_cnn = _conv2d(conv2, 'after_block2', 3, 80, 64, 1)
+        pool2 = _max_pool(conv2_cnn, 2, 2)
+        x = pool2
+
+        conv3 = _dense_block(x, 64, 'block3')
+        conv3_cnn = _conv2d(conv3, 'after_block3', 3, 320, 128, 1)
+        pool3 = _max_pool(conv3_cnn, 2, 2)
+        x = pool3
+
+        conv4 = _dense_block(x, 128, 'block4')
+        conv4_cnn = _conv2d(conv4, 'after_block4', 3, 640, 64, 1)
+        pool4 = _max_pool(conv4_cnn, 2, 2)
+        x = pool4
+    return x
+
 def _residual_block(input_layer, output_channel, if_first=False, name=None):
     input_channel = input_layer.get_shape().as_list()[-1]
 
@@ -223,3 +247,30 @@ def _avg_pool(x, ksize, strides):
                           strides=[1, strides, strides, 1],
                           padding='SAME',
                           name='avg_pool')
+
+leakiness = 0.01
+def _dense_block(input_layer, output_channel, name=None):
+    input_channel = input_layer.get_shape().as_list()[-1]
+
+    inconv1 = input_layer
+    x = _conv2d(inconv1, 'cnn1' + name, 3, input_channel, output_channel, 1)
+    x = _batch_norm('bn1' + name, x)
+    conv1 = _leaky_relu(x, leakiness)
+
+    inconv2 = tf.concat(axis=3, values=[inconv1, conv1])
+    x = _conv2d(inconv2, 'cnn2' + name, 3, output_channel + input_channel, output_channel, 1)
+    x = _batch_norm('bn2' + name, x)
+    conv2 = _leaky_relu(x, leakiness)
+
+    inconv3 = tf.concat(axis=3, values=[inconv2, conv2])
+    x = _conv2d(inconv3, 'cnn3' + name, 3, output_channel * 2 + input_channel, output_channel, 1)
+    x = _batch_norm('bn3' + name, x)
+    conv3 = _leaky_relu(x, leakiness)
+
+    inconv4 = tf.concat(axis=3, values=[inconv3, conv3])
+    x = _conv2d(inconv4, 'cnn4' + name, 3, output_channel * 3 + input_channel, output_channel, 1)
+    x = _batch_norm('bn4' + name, x)
+    conv4 = _leaky_relu(x, leakiness)
+
+    output = tf.concat(axis=3, values=[inconv4, conv4])
+    return output
